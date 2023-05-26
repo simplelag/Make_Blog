@@ -89,7 +89,7 @@
             %>
             <%
             }
-            else if(session.getAttribute("grade") != null){
+            else if((int)session.getAttribute("grade") == 1 ){
 
             %>
             <button type="button" class="btn btn-warning me-2" id="btn-edit">수정</button>
