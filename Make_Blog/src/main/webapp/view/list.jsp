@@ -65,7 +65,7 @@
         %>
         <%
             }
-            else if(session.getAttribute("grade") != null){
+            else if((int)session.getAttribute("grade") == 1){
         %>
         <a href="/blogBoard/Write.do" class="btn btn-danger">글쓰기</a>
         <%
